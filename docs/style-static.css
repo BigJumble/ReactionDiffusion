@@ -1,4 +1,6 @@
 body {
+    display: grid;
+    justify-items: center;
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     line-height: 1.5;
     font-weight: 400;
@@ -16,6 +18,7 @@ body {
 }
 
 canvas{
-    image-rendering: optimizeQuality;
-    width: 100vw;
+    image-rendering: auto;
+    /* width: 100vw; */
+    height: 100vh;
 }
