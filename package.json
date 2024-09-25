@@ -1,0 +1,10 @@
+{
+  "name": "reactiondiffusion",
+  "version": "1.0.0",
+  "description": "demo",
+  "author": "Eimantas",
+  "license": "MIT",
+  "devDependencies": {
+    "@webgpu/types": "^0.1.46"
+  }
+}

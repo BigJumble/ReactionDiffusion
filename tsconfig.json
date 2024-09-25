@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",                       // Target ES6 or higher
+      "module": "ESNext",                   // CommonJS module system, used in Node.js
+      "strict": true,                         // Enable all strict type-checking options
+      "noImplicitAny": true,                  // Disallow usage of `any` unless explicitly stated
+      "strictNullChecks": true,               // Ensure strict null checks
+      "strictFunctionTypes": true,            // Enforce strict checking of function types
+      "strictBindCallApply": true,            // Strict checks for `bind`, `call`, and `apply`
+      "noImplicitThis": true,                 // Raise error on `this` expressions with implicit `any`
+      "alwaysStrict": false,                   // Parse in strict mode and emit "use strict"
+      "noUnusedLocals": false,                 // Report errors on unused locals
+      "noUnusedParameters": false,             // Report errors on unused parameters
+      "noImplicitReturns": true,              // Ensure all code paths in a function return a value
+      "noFallthroughCasesInSwitch": true,     // Report errors for fallthrough cases in `switch` statements
+      "esModuleInterop": true,                // Enables interoperability between CommonJS and ES modules
+      "skipLibCheck": true,                   // Skip type checking of declaration files (improves compile time)
+      "outDir": "./docs",                     // Output directory for the compiled JavaScript
+      "sourceMap": false,                      // Generate source maps
+      "removeComments": true,                 // Retain comments in the generated code
+      "declaration": false,                   // Generate declaration files (.d.ts)
+      "types": ["@webgpu/types"],
+      "newLine": "crlf",
+    },
+    "include": ["src/**/*"],                  // Specify which files to compile
+  }
